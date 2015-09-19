@@ -9,3 +9,4 @@ initially as a solid square of a user-defined size. All other programs are varia
 
 The file ```Iterations_GameofLife_Display.cpp``` is made to output the cellular automaton after each generation.
 The file ```Iterations_GameofLife_square.cpp``` generates a cellular automaton configured initially as a hollow square.
+```ProbabilityModelSimulator.cpp``` implements a probabilistic model to predict the behavior of a cellular automaton in the Game of Life.
