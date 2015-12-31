@@ -73,10 +73,10 @@ void outVec(vector< vector <int> > grid)
 {
 	if(grid.size()!=grid[0].size())
 		cout<<"Error. Grid is no longer a square.";
-		
 	int size=grid.size();
 	int counter1=0;
 	int counter2=0;
+	
 	while(counter1<size)
 	{
 		while(counter2<size)
