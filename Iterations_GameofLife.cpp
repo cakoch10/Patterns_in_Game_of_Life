@@ -26,8 +26,6 @@ int val_n=300; //n represents the intitial configuration of the nxn square. Name
 vector< vector <int> > prev2grid;
 vector< vector <int> > prevgrid;
 
-
-
 int prelim=0;
 int counter=0;
 //create a program to generate output representing the number of 
@@ -37,9 +35,7 @@ int main()
 
 	int k=60;
 	vector< vector <int> > grid;
-	
 
-	
 	//	grid=newAutomaton();
 	//	outVec(grid);
 	
