@@ -17,8 +17,8 @@ void out2file(void);//outputs data to two separate text files
 
 int rows=0;
 
-int num_gens=0;//represents the number of generations of a specific automata
-int val_n=300;//n represents the intitial configuration of the nxn square. Namely, it specifies the square root of the number of cells turned on
+int num_gens=0; //represents the number of generations of a specific automata
+int val_n=300; //n represents the intitial configuration of the nxn square. Namely, it specifies the square root of the number of cells turned on
 
 //storage grids to compare with current in order to determine if still life has been reached
 vector< vector <int> > prev2grid;
