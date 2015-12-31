@@ -56,8 +56,8 @@ int main()
 		k++;
 	}
 		
-	//while(counter<scenarios)	
-	/*
+	/*while(counter<scenarios)	
+
 	vector<int> a;
 	a.push_back(90);
 	a.insert(a.begin(),10);
@@ -65,7 +65,6 @@ int main()
 	cout<< grid[0][0]<<grid[0][1];
 	cin.get();
 	*/
-	
 	return 0;	
 }
 
