@@ -13,7 +13,7 @@ bool test(vector< vector <int> > grid); //make sure to take into account the inc
 //create a new automaton (once val_n is updated)
 vector< vector <int> > newAutomaton();
 
-void out2file(void);//outputs data to two separate text files
+void out2file(void); //outputs data to two separate text files
 
 int rows=0;
 
