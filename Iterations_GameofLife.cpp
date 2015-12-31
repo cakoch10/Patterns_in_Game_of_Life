@@ -6,7 +6,7 @@
 #include<cmath>
 using namespace std;
 void outVec(vector< vector <int> > grid); //outputs the automaton
-vector< vector <int> > updateVec(vector< vector <int> > grid);//generates automaton at t+1
+vector< vector <int> > updateVec(vector< vector <int> > grid); //generates automaton at t+1
 vector< vector <int> > checkVec(vector< vector <int> > grid);//check to see if the grid needs to be expanded. If it does make sure to increase the size of prev. grids as well
 bool test(vector< vector <int> > grid); //make sure to take into account the increased size of vector. THis tests to see if the automaton has reached still life
 
