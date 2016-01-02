@@ -14,13 +14,13 @@ void outVec(vector< vector <int> > grid);//outputs automaton
 vector< vector <int> > updateVec(vector< vector <int> > grid);//generates automaton at t+1
 bool test(vector< vector <int> > grid, int, char); //check to see if there is a one in the given row/column
 
-void numLive(vector< vector <int> > grid);//num live in total
-void numLiveC(vector< vector <int> > grid);//check number of live cells in corner
-void numLiveir(vector< vector <int> > grid);//check num of live cells in inner region
-void numLiveb(vector< vector <int> > grid);//chekc live in border
-void numLives2(vector< vector <int> > grid);//check in s2 region
-void numLives1(vector< vector <int> > grid);//check in s1 region
-void numLiveo(vector< vector <int> > grid);//check outer region
+void numLive(vector< vector <int> > grid); //num live in total
+void numLiveC(vector< vector <int> > grid); //check number of live cells in corner
+void numLiveir(vector< vector <int> > grid); //check num of live cells in inner region
+void numLiveb(vector< vector <int> > grid); //chekc live in border
+void numLives2(vector< vector <int> > grid); //check in s2 region
+void numLives1(vector< vector <int> > grid); //check in s1 region
+void numLiveo(vector< vector <int> > grid); //check outer region
 
 long long combination(int, int);//compute the combination of two numbers
 unsigned long long int factorial(unsigned long long int); //compute the factorial of a number
